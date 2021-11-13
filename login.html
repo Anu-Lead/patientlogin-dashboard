@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validated Login Page</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+<!-- <img src="images/doctors.jpg"> -->
+
+<div class="container">
+    <h1 class="Label">Patient Dashboard</h1>
+    <form class="login_form" action="home.html" method="post" name="form" onsubmit="return validation()">
+        <div class="fontpage">Email | Clinic ID</div>
+        <input autocomplete="off" type="text" name="email">
+        <div id="email_error">Please Fill Your Email or Clinic ID</div>
+        <div class="input">Password</div>
+        <input autocomplete="off" type="text" name="password">
+        <div id="passw_error">Please Fill Your Password</div>
+        <button type="submit">Sign In</button>
+    </form>
+</div>
+<script src="css/login.js"></script>
+</body>
+</html>
